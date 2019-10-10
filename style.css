@@ -1,0 +1,30 @@
+body {
+	padding:30px;
+}
+.calculator-container {
+	display:inline-block;
+	border: 1px solid;
+	background:#eee;
+}
+.numbers-input {
+	text-align: right;
+	padding: 0 5px;
+	height: 40px;
+	line-height: 40px;
+}
+.numbers-section div {
+	padding:5px;
+}
+.numbers-section div span {
+	width:40px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	border:1px solid;
+	border-radius: 3px;
+	display: inline-block;
+	cursor: pointer;
+}
+.numbers-section div span:hover{
+	background:#fff;
+}
